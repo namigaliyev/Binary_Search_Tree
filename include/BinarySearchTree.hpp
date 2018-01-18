@@ -31,7 +31,7 @@ class BinarySearchTree{
 		}
 		bool AraveSil(Dugum<Nesne> *&alt_Dugum,const Nesne &yeni)
 		{			
-			if(alt_Dugum == NULL) return false; //Eleman yok
+			if(alt_Dugum == NULL) return false; //Eleman yokk
 			if(alt_Dugum->veri == yeni)
 				return DugumSil(alt_Dugum);
 			else if(yeni < alt_Dugum->veri)
